@@ -1,10 +1,8 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import AuthorImage from "../../images/author_thumbnail.jpg";
 import nftImage from "../../images/nftImage.jpg";
 import axios from "axios";
-// eslint-disable-next-line no-unused-vars
-import { post } from "jquery";
 
 const AuthorItems = () => {
 const [posts, setPosts] = useState([])
